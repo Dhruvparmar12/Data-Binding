@@ -1,0 +1,13 @@
+<div style="padding: 20px;">
+    
+            <!-- Item:<input type="text" class="" [(ngModel)]="itemName" > -->
+            <!-- Refrence variable -->
+            Item: <input type="text" #item_Name>
+            <hr>
+            Price: <input type="text" [(ngModel)]="itemPrice" >
+            <hr>
+            <button (click)="addData(item_Name)">Add Data</button>
+               {{itemName}}
+               {{itemPrice}}
+
+</div>

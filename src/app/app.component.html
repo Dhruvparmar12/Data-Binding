@@ -1,0 +1,9 @@
+
+<app-input (additem)="addDetails($event)"></app-input>
+
+<div style="padding: 20px;">
+        <hr>
+       <h1>Item list</h1>
+<hr>    
+<app-output *ngFor="let detail of details" [outElement]="detail"></app-output>
+
